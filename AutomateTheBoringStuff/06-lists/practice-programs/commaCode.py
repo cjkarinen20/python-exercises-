@@ -1,4 +1,3 @@
-import copy 
 
 def listString(list):
     
