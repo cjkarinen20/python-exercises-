@@ -7,7 +7,7 @@ def display_inventory(inventory):
         sum += int(count)
     print(f"Total number of items: {sum}") # Print total number of items in inventory
     
-    
-inventory = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
+if __name__ == "__main__":
+    inventory = {'rope': 1, 'torch': 6, 'gold coin': 42, 'dagger': 1, 'arrow': 12}
 
-display_inventory(inventory)
+    display_inventory(inventory)
